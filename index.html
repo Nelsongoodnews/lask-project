@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LASK-Tech monks</title>
+    <script src="https://kit.fontawesome.com/dd6a503619.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="ASSETS/lask-favicon.png" type="image/png">
+    <link rel="stylesheet" href="CSS/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link rel="stylesheet" href="CSS/other.css">
+  </head>
+  <body>
+
+    <!--CSS Spinner  ## PRE-LOADER-->
+  <div class="spinner-wrapper">
+  <div class="spinner"></div>
+  </div>
+  <!--CONTACT NAVIGATION BAR  -->
+<nav class="contact-navbar">
+<div class="row">
+<div class="offset-md-1 col-lg-6 col-sm-12">
+<div class="nav-left">
+<a href="tel:08056572107" class="mobile padding"><i class="fas fa-phone-square-alt phone"></i>(+234-8056572107)</a> |
+<a href="mailto:lebabarigoodnews@gmail.com?subject=feedback" target="_blank" class="mobile padding"><i class="fas fa-envelope email"></i>info@lask.com</a>
+</div>
+</div>
+<div class="col-lg-4 nav-right">
+<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+<a href="#"><i class="fab fa-whatsapp fa-2x"></i></a>
+</div>
+<div class="col"></div>
+</div>
+</nav>
+    <!--CONTACT NAVIGATION BAR  ENDS here-->
+
+  <!-- NAVBAR SECTION -->
+  <div class="navbar">
+    <div class="row">
+        <div class="col-4">
+        <a href="index.html">  <img class="logo-img" src="ASSETS/lask-logo.png" alt="brand-logo" /></a>
+        </div>
+        <div class="col-8 nav-items">
+          <ul class="maindrop " id="activeness">
+            <li><a href="index.html" class="active super-anchor">Home</a></li>
+            <li><a href="#" class="super-anchor">About</a></li>
+            <li><a href="#" class="super-anchor">Work</a></li>
+            <li><a href="#" class="super-anchor">Process</a></li>
+            <li><a href="#" class="super-anchor">Services</a></li>
+            <li><a href="#" class="super-anchor">Testimonial</a></li>
+            <li><a href="#" class="super-anchor">Contact</a></li>
+          </ul>
+            <button class="trigram123" type="button" name="button" onclick="maindrop()">&#9776;</button>
+        </div>
+    </div>
+  </div>
+  <!-- Banner Section  -->
+<section class="banner-sect">
+        <div class="sect-content">
+          <h1 class="typing-text animated slideInUp">We <span class="typing"></></h1>
+        </div>
+        <div class="row no-overflow">
+            <div class="col-5">
+              <div class="banner-short-text">
+                <p>We are a new design studio based in lagos. We have 20 years of combined experience and know a thing or two about web development and mobile apps</p>
+              </div>
+              <button class="banner-btn" type="button" name="button">Contact Us</button>
+            </div>
+        </div>
+</section>
+                <!-- ABOUT SECTION  -->
+<section class="about-sect">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-sm-12 col-md-6">
+            <h2 class="about-header">About Us</h2>
+            <p class="about-paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis</p>
+            <img class="about-img" src="ASSETS/sin.png" alt="signature">
+        </div>
+        <div class="col"></div>
+    </div>
+</section>
+            <!-- SKILLS SECTION  -->
+<section class="skills-sect">
+    <div class="row">
+        <div class="col-6 pro-skills">
+            <h2 class="skills-header">Professional Skills</h2>
+            <div class="ui/ux-design">
+              <span class="ui-ux-designs">UI/UX DESIGNS 75%</span>
+              <div class="main-progress">
+                <div class="color-progress"></div>
+              </div>
+            </div>
+            <div class="web-development">
+              <span class="ui-ux-designs">WEB DEVELOPMENT 90%</span>
+              <div class="main-progress">
+                <div class="color-progress-web"></div>
+              </div>
+            </div>
+            <div class="marketing">
+              <span class="ui-ux-designs">MARKETING 65%</span>
+              <div class="main-progress">
+                <div class="color-progress-marketing"></div>
+              </div>
+            </div>
+        </div>
+        <div class="col-6 skills-bg-img"></div>
+    </div>
+</section>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="JAVASCRIPT/typed.min.js"></script>
+    <script src="JAVASCRIPT/main.js"></script>
+    <script src="JAVASCRIPT/jquery.min.js"></script>
+    <script src="JAVASCRIPT/owl.carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+    $(document).ready(function() {
+    //Preloader
+    preloaderFadeOutTime = 500;
+    function hidePreloader() {
+    var preloader = $('.spinner-wrapper');
+    preloader.fadeOut(preloaderFadeOutTime);
+    }
+    hidePreloader();
+    });
+    </script>
+    <script type="text/javascript">
+    var typed = new Typed('.typing', {
+    strings: ["Design and", "Develop."],
+    loop: true,
+    typeSpeed: 50,
+    backSpeed: 50,
+    backDelay: 3500
+  });
+    </script>
+  </body>
+</html>

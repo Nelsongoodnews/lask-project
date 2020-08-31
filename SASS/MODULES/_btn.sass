@@ -1,0 +1,38 @@
+button.trigram123
+  display: none
+  // visibility: hidden
+div.row
+  max-width: 100%
+  width: 100%
+  margin: 0
+
+@media screen and (max-width: 680px)
+  button.trigram123
+    display: block
+    // float: right
+    position: absolute
+    top: 10%
+    left: 80%
+    font-size: 27px
+    cursor: pointer
+    padding: 5px 15px
+    border: none
+    background: transparent
+    font-weight: 700
+
+button.banner-btn
+  background-image: linear-gradient(to right, $brand-main, $brand-primary)
+  border: none
+  font-size: 25px
+  color: #fff
+  padding: 12px 12px
+  cursor: pointer
+  margin: auto
+  display: block
+  &:hover
+    background-image: linear-gradient(to right, darken($brand-main, 10%), darken($brand-primary, 10%))
+
+@media screen and (max-width: 680px)
+  button.banner-btn
+    font-size: 15px-
+    margin-left: 3px
