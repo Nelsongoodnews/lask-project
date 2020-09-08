@@ -110,6 +110,42 @@ a.work-link {
     color: #facc00 !important;
     text-decoration: underline; }
 
+h2.process_header {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 10px; }
+
+p.process_paragraph {
+  line-height: 1.2;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 60px; }
+
+h2.services_header {
+  margin-bottom: 5px;
+  margin-top: 1.5rem; }
+
+div.margin-top {
+  margin-top: 3rem !important; }
+
+p.testi_paragraph {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center; }
+
+span.person1 {
+  color: #fff;
+  display: block;
+  margin: auto;
+  position: relative;
+  left: 10%; }
+
+@media screen and (max-width: 680px) {
+  div.content-img {
+    display: block;
+    margin: auto;
+    position: relative;
+    left: 30px; } }
 section.banner-sect {
   width: 100%;
   height: 500px;
@@ -144,6 +180,16 @@ section.number-sect {
     padding: 0; } }
 section.work-sect {
   background-color: #f2f2e1; }
+
+section.yorum {
+  background-color: #2C5F2DFF;
+  padding: 60px; }
+
+section.services {
+  text-align: center;
+  margin-top: 5rem;
+  padding: 60px;
+  background-color: #f3f3e3; }
 
 button.trigram123 {
   display: none; }
@@ -197,6 +243,9 @@ i.fa-angle-down {
 
 div.padding-ab {
   padding-bottom: 50px; }
+
+i.aligncn {
+  text-align: center; }
 
 nav.contact-navbar {
   width: 100%;
